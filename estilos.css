@@ -1,9 +1,9 @@
-body {
+html {
     background: #000;
     color: white;
-    max-width: 90vw;
-    height: 100vh;
-    
+    max-width: 99vw;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 main{
     display: flex;
