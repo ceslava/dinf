@@ -2,11 +2,12 @@ body {
     background: #000;
     color: white;
     max-width: 90vw;
+    height: 100vh;
     
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 80vh;
+    align-items: center;
 }
