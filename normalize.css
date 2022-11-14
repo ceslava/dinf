@@ -172,7 +172,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button;
+    appearance: button;
 }
 /**
  * Remove the inner border and padding in Firefox.
@@ -254,7 +254,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type="search"] {
-    -webkit-appearance: textfield;
+    
+    appearance: textfield;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -270,7 +271,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-    -webkit-appearance: button;
+   
+    appearance: button;
     /* 1 */
     font: inherit;
     /* 2 */
