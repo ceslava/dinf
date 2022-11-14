@@ -2,10 +2,11 @@ html {
     background: #000;
     color: white;
     max-width: 99vw;
-    min-height: 100vh;
+    
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }
 main{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
